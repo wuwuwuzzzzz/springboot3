@@ -5,7 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7ff081-e044-4016-8469-90caedb7cd4c" name="Changes" comment="优化代码">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/java/com/wxz/boot303demo/Boot303DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/java/com/wxz/boot303demo/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/java/com/wxz/boot303demo/entity/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/java/com/wxz/boot303demo/event/EventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/java/com/wxz/boot303demo/event/LoginSuccessEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/java/com/wxz/boot303demo/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-03-demo/src/test/java/com/wxz/boot303demo/Boot303DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/wxz/boot302demo/Boot302DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/wxz/boot302demo/Boot302DemoApplication.java" afterDir="false" />
     </list>
@@ -25,7 +43,17 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/boot3-02-demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/boot3-03-demo" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.10/spring-boot-autoconfigure-3.0.10-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.10/spring-boot-autoconfigure-3.0.10-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.10/spring-boot-autoconfigure-3.0.10-sources.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.10/spring-boot-autoconfigure-3.0.10-sources.jar!/org/springframework/boot/autoconfigure/web/ServerProperties.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.10/spring-boot-autoconfigure-3.0.10-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryAutoConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/3.0.10/spring-boot-autoconfigure-3.0.10.jar!/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/3.0.10/spring-boot-3.0.10-sources.jar!/org/springframework/boot/context/annotation/ImportCandidates.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/3.0.10/spring-boot-3.0.10-sources.jar!/org/springframework/boot/context/properties/EnableConfigurationProperties.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -51,36 +79,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;d02bf50ed6d4e15b444911509e66edfb&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/Users/wxz/IdeaProjects/springboot3/boot3-03-demo/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java",
+    "spring.configuration.checksum": "d02bf50ed6d4e15b444911509e66edfb",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/boot3-03-demo/src/main/resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.wxz.boot302demo" />
     </key>
@@ -95,7 +127,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Boot302DemoApplication">
+  <component name="RunManager" selected="Spring Boot.Boot303DemoApplication">
     <configuration name="Boot301DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="boot3-01-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxz.Boot301DemoApplication" />
@@ -106,6 +138,13 @@
     <configuration name="Boot302DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="boot3-02-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxz.boot302demo.Boot302DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Boot303DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boot3-03-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxz.boot303demo.Boot303DemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,7 +162,12 @@
       <workItem from="1693531648719" duration="4576000" />
       <workItem from="1693536544511" duration="37000" />
       <workItem from="1693536605258" duration="303000" />
-      <workItem from="1693536917151" duration="743000" />
+      <workItem from="1693536917151" duration="1831000" />
+      <workItem from="1693551192787" duration="3341000" />
+      <workItem from="1693625258024" duration="4523000" />
+      <workItem from="1693713456893" duration="690000" />
+      <workItem from="1693910866950" duration="67000" />
+      <workItem from="1694053274082" duration="1522000" />
     </task>
     <task id="LOCAL-00001" summary="优化代码">
       <option name="closed" value="true" />
@@ -165,11 +209,30 @@
       <option name="project" value="LOCAL" />
       <updated>1693534755775</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="优化代码">
+      <option name="closed" value="true" />
+      <created>1693547290766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693547290766</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
