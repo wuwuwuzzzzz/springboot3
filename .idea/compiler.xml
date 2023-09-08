@@ -8,13 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot3-01-demo" />
-        <module name="boot3-02-demo" />
         <module name="boot3-03-demo" />
+        <module name="boot3-02-demo" />
+        <module name="boot03-04-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot03-04-demo" options="-parameters" />
       <module name="boot3-01-demo" options="-parameters" />
       <module name="boot3-02-demo" options="-parameters" />
       <module name="boot3-03-demo" options="-parameters" />

@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7ff081-e044-4016-8469-90caedb7cd4c" name="Changes" comment="事件发送驱动">
+    <list default="true" id="1d7ff081-e044-4016-8469-90caedb7cd4c" name="Changes" comment="优化代码">
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/src/main/java/com/wxz/boot0304demo/Boot0304DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/src/main/java/com/wxz/boot0304demo/controller/WeatherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/src/main/java/com/wxz/boot0304demo/service/WeatherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/src/main/java/com/wxz/boot0304demo/service/WeatherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot03-04-demo/src/test/java/com/wxz/boot0304demo/Boot0304DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-02-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-02-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-03-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-03-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +35,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/boot3-03-demo" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/boot03-04-demo" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -86,7 +94,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "vcs.Git",
-    "spring.configuration.checksum": "d02bf50ed6d4e15b444911509e66edfb",
+    "spring.configuration.checksum": "a15b68a62084de7fc656ac580d76652c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -112,6 +120,13 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Boot303DemoApplication">
+    <configuration name="Boot0304DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boot03-04-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxz.boot0304demo.Boot0304DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Boot301DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="boot3-01-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wxz.Boot301DemoApplication" />
@@ -151,7 +166,9 @@
       <workItem from="1693625258024" duration="4523000" />
       <workItem from="1693713456893" duration="690000" />
       <workItem from="1693910866950" duration="67000" />
-      <workItem from="1694053274082" duration="3811000" />
+      <workItem from="1694053274082" duration="4577000" />
+      <workItem from="1694084870833" duration="1803000" />
+      <workItem from="1694136058840" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="优化代码">
       <option name="closed" value="true" />
@@ -225,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694055038699</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="优化代码">
+      <option name="closed" value="true" />
+      <created>1694072708595</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694072708595</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,9 +269,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="优化代码" />
     <MESSAGE value="事件发送驱动" />
-    <option name="LAST_COMMIT_MESSAGE" value="事件发送驱动" />
+    <MESSAGE value="优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
